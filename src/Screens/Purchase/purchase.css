@@ -1,0 +1,35 @@
+.purchase__Wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+  grid-template-columns: 3fr 2fr;
+}
+
+.purchase_wrapper h2 {
+  color: var(--blue);
+  margin-bottom: 1rem;
+}
+
+.purchase__product-section {
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 0.6rem;
+}
+
+.purchase-form_header {
+  color: white;
+  background-color: var(--blue);
+}
+
+.purchase__product-section input {
+  width: 50px;
+}
+/*# sourceMappingURL=purchase.css.map */
+
+.addProductButton {
+  width: 100%;
+}

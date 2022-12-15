@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.separator {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+}
+
+.smallPadding {
+  padding: 1rem;
+}
+
+.sectionPadding {
+  padding: 2rem;
+}
+
+body {
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}

@@ -1,0 +1,31 @@
+.dashboard__card-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.date_filter {
+  margin-top: 1rem;
+  display: flex;
+  gap: 20px;
+
+  input {
+    padding: 5px;
+    border: none;
+    height: 30px;
+    border: 1px solid var(--blue);
+  }
+}
+
+.dashboard__charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .chart {
+    margin-top: 20px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    color: var(--blue);
+    margin: 1rem 0;
+  }
+}

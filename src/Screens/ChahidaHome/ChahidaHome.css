@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1355px;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+/* header-section */
+.checkbtn {
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+#check {
+  display: none;
+}
+.logo {
+  width: 170px;
+  margin: auto;
+}
+nav.nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+nav.nav {
+  text-align: center;
+  position: relative;
+}
+nav.nav ul li a {
+  color: #636e72;
+}
+nav.nav ul li a i {
+  margin-left: 5px;
+  font-size: 12px;
+}
+nav.nav ul li .sub-menu {
+  display: none;
+  transition: 0.5s ease;
+}
+nav.nav ul li .sub-menu li {
+  display: block;
+  text-align: left;
+  padding: 15px;
+}
+nav.nav ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background: #fff;
+  left: 420px;
+  width: 320px;
+  padding-top: 15px;
+}
+/* banner-section */
+.banner-img {
+  margin-top: 15px;
+}
+.banner-img img {
+  height: 100vh;
+  width: 100%;
+}
+/* product section */
+.product-scrtion {
+  margin-top: 50px;
+}
+.product-scrtion h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.new-items-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem 0;
+  /* flex-wrap: wrap; */
+}
+.new-items-section .product-item .product-img {
+  width: 200px;
+  height: 200px;
+}
+.new-items-section .product-item .product-img img {
+  height: 100%;
+}
+.product-item {
+  padding: 15px 25px;
+  border: 1px solid #ddd;
+
+  width: 270px;
+}
+.product-content {
+  margin-top: 30px;
+}
+.product-item:last-child {
+  border-right: 1px solid #ddd;
+}
+.product-item .product-content .product-name {
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 13px;
+  color: #666;
+}
+.product-item .product-content span.taka img {
+  width: 15px;
+}
+.product-content .product-ditels {
+  font-size: 12px;
+  padding: 10px 0;
+  color: #666;
+  height: 55px;
+}
+
+.product-content button {
+  background: #273c75;
+  color: #fff;
+  padding: 10px 28px;
+  margin: 50px 0 30px 0;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.rice-div {
+  margin-top: 30px;
+}
+
+/* footer-section */
+.footer-section {
+  background: #c7ecee;
+  width: 100%;
+  margin-top: 50px;
+}
+.input-and-social {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.footer-content input[type="email"] {
+  width: 270px;
+  height: 50px;
+  padding-left: 15px;
+}
+
+.footer-content button.footer-btn {
+  width: 120px;
+  height: 50px;
+  background: #1b1464;
+  margin-left: -8px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.footer-content .footer-social {
+  line-height: 50px;
+}
+
+.footer-content .footer-social i {
+  font-size: 20px;
+  margin-left: 15px;
+  color: #000;
+}
+.footer-content-items {
+  display: flex;
+}
+.footer-logo {
+  width: 12%;
+  display: inline-block;
+}
+
+.address-items {
+  display: inline-block;
+  width: 40%;
+}
+
+.footer-text-item {
+  display: inline-block;
+  width: 18%;
+}
+.footer-content-items .address-items p {
+  padding: 7px 0;
+  font-size: 13px;
+}
+.footer-content-items .address-items .address {
+  padding-bottom: 15px;
+}
+.footer-content-items .address-items .business {
+  padding: 15px 0;
+}
+.footer-content-items .footer-text-item a {
+  display: block;
+  font-size: 13px;
+  padding: 5px 0;
+  color: #333;
+}
+.footer-content-items .footer-text-item a:hover {
+  text-decoration: underline;
+}
+.bank-card {
+  display: flex;
+}
+
+.copyright-content-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bank-card img {
+  margin-left: 10px;
+  width: 60px;
+}
+
+.copyright-content-item .copyright-text p {
+  color: #333;
+  font-size: 15px;
+}
+
+.copyright-content-item {
+  padding: 50px 0;
+}
+
+.new-div h2,
+.rice-div h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--blue);
+}

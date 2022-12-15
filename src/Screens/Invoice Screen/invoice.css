@@ -1,0 +1,102 @@
+.invoice__page {
+  width: 100%;
+}
+
+.invoice {
+  width: 100%;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+}
+
+.companyTitle {
+  margin-bottom: 2rem;
+}
+
+.payment {
+  margin-bottom: 1rem;
+}
+
+.invoiceTable h2 {
+  margin-bottom: 0.5rem;
+}
+
+.customerInfo {
+  margin-bottom: 1rem;
+}
+
+.invoiceTable {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.invoiceWrapper {
+  width: 100%;
+}
+
+.invoiceTable table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.invoiceTable th,
+.invoiceTable td {
+  border: 1px solid black;
+  padding: 0 0.5rem;
+}
+
+.totalInfo {
+  width: 100%;
+  text-align: right;
+}
+
+.printBtn {
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--blue);
+  color: white;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+@media print {
+  button {
+    display: none;
+  }
+}
+
+.invBtn {
+  margin-bottom: 0.4rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--blue);
+  cursor: pointer;
+  font-family: "poppins";
+}
+
+.invBtn a {
+  color: white;
+}
+
+.actionOfOrders {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.actionOfOrders svg {
+  color: var(--blue);
+}
+/*# sourceMappingURL=invoice.css.map */

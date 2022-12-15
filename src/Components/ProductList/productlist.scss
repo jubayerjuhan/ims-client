@@ -1,0 +1,17 @@
+.productList__modal {
+  background-color: white;
+  height: 90vh;
+  position: relative;
+  .title {
+    padding: 1rem;
+  }
+  .title {
+    display: flex;
+  }
+  .btn {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    flex: 1;
+  }
+}

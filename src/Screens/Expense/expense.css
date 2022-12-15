@@ -1,0 +1,9 @@
+.section__container {
+  height: 500px;
+}
+
+.section__wrapper h1 {
+  margin-bottom: 1rem;
+  color: var(--blue);
+}
+/*# sourceMappingURL=expense.css.map */

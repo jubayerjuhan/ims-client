@@ -1,0 +1,31 @@
+.minicard {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 16px;
+  color: white;
+  background-color: var(--blue);
+}
+
+.minicard .header {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.minicard p {
+  font-size: 0.8rem;
+}
+
+.minicard__icon {
+  font-size: 3rem;
+  color: white;
+}
+/*# sourceMappingURL=minicard.css.map */

@@ -1,0 +1,88 @@
+.sidebar__wrapper {
+  padding: 1rem 1.5rem;
+  max-width: 240px;
+  overflow: hidden;
+}
+
+.sidebar__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.9rem 0;
+}
+
+.sidebar__nav p {
+  font-size: 1rem;
+}
+
+.sidebar__wrapper {
+  border-right: 1px solid #e6e6e6;
+  min-height: 100vh;
+  background-color: var(--blue);
+}
+
+.sidebar__wrapper a {
+  color: white;
+}
+
+.sidebar__wrapper a p {
+  font-size: 0.9rem;
+}
+
+.sidebar__header-logo img {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.mainSideWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 8fr;
+      grid-template-columns: 2fr 8fr;
+}
+
+.sidebar__userSection {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.sidebar__userSection .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.sidebar__userSection .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sidebar__userSection .user p {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.sidebar__userSection .user svg {
+  cursor: pointer;
+  color: #d86632;
+  font-size: 2.5rem;
+}
+
+.sidebar__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+}
+/*# sourceMappingURL=sidebar.css.map */
